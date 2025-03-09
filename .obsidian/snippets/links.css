@@ -1,0 +1,5 @@
+.markdown-preview-view a.internal-link.is-unresolved,
+.markdown-source-view.mod-cm6 span.is-unresolved > a.cm-underline,
+.markdown-source-view a.internal-link.is-unresolved {
+  color: #ed4a4a;
+}

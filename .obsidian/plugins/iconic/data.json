@@ -1,0 +1,292 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "1.0 - Dashboards": {
+      "icon": "lucide-layout-dashboard",
+      "color": "cyan"
+    },
+    "1.0 - Dashboards/Today.md": {
+      "icon": "lucide-calendar"
+    },
+    "2.0 - Efforts": {
+      "icon": "lucide-brain-circuit",
+      "color": "blue"
+    },
+    "2.0 - Efforts/2.1 - Projects": {
+      "icon": "lucide-kanban-square"
+    },
+    "3.0 - Extras": {
+      "icon": "lucide-cog"
+    },
+    "3.0 - Extras/3.1 - Templates": {
+      "icon": "lucide-book-template"
+    },
+    "3.0 - Extras/3.2 - Archive": {
+      "icon": "lucide-archive"
+    },
+    "4.0 - Zones": {
+      "icon": "lucide-group",
+      "color": "yellow"
+    },
+    "4.0 - Zones/4.1 - Guides": {
+      "icon": "lucide-map"
+    },
+    "4.0 - Zones/4.2 - Subjects": {
+      "icon": "lucide-tags"
+    },
+    "4.0 - Zones/4.3 - Documentation": {
+      "icon": "lucide-book-open"
+    },
+    "5.0 - Network & People": {
+      "icon": "lucide-handshake",
+      "color": "purple"
+    },
+    "5.0 - Network & People/5.1 - People": {
+      "icon": "lucide-contact-2"
+    },
+    "5.0 - Network & People/5.2 - Families": {
+      "icon": "lucide-users-round"
+    },
+    "6.0 - Unsorted or Unfinished": {
+      "icon": "lucide-file-stack"
+    },
+    "7.0 - Thoughts & Journal": {
+      "icon": "lucide-brain",
+      "color": "orange"
+    },
+    "7.0 - Thoughts & Journal/7.1 - Microjournal": {
+      "icon": "lucide-swatch-book"
+    },
+    "7.0 - Thoughts & Journal/7.2 - Journal": {
+      "icon": "lucide-book-lock"
+    },
+    "7.0 - Thoughts & Journal/7.3 - Microblog": {
+      "icon": "lucide-message-square-text"
+    },
+    "7.0 - Thoughts & Journal/7.4 - Blog": {
+      "icon": "lucide-rss"
+    },
+    "7.0 - Thoughts & Journal/7.5 - Incidents": {
+      "icon": "lucide-gavel"
+    },
+    "8.0 - Sources": {
+      "icon": "lucide-paperclip",
+      "color": "red"
+    },
+    "8.0 - Sources/8.1 - Bookmarks": {
+      "icon": "lucide-book-marked"
+    },
+    "8.0 - Sources/8.2 - Attachments": {
+      "icon": "lucide-files"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "family": {
+      "icon": "lucide-users-2"
+    },
+    "title": {
+      "icon": "lucide-heading"
+    },
+    "url": {
+      "icon": "link"
+    },
+    "website": {
+      "icon": "lucide-link"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "exSBD",
+      "name": "Blog",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "7.0 - Thoughts & Journal/7.4 - Blog/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-pen"
+    },
+    {
+      "id": "R3jbi",
+      "name": "Bookmark",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "8.0 - Sources/8.1 - Bookmarks/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-bookmark"
+    },
+    {
+      "id": "fb7Gg",
+      "name": "Dashboards",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "1.0 - Dashboards/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-layout-dashboard"
+    },
+    {
+      "id": "6xwXY",
+      "name": "Documentation",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "4.0 - Zones/4.3 - Documentation/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file"
+    },
+    {
+      "id": "ObKpD",
+      "name": "Families",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "5.0 - Network & People/5.2 - Families/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-users-2"
+    },
+    {
+      "id": "2wx2j",
+      "name": "Guide",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "4.0 - Zones/4.1 - Guides/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-map-pinned"
+    },
+    {
+      "id": "ZI2Fh",
+      "name": "Journal",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "7.0 - Thoughts & Journal/7.2 - Journal/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-pen"
+    },
+    {
+      "id": "kar8M",
+      "name": "Microblog",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "7.0 - Thoughts & Journal/7.3 - Microblog/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-pen"
+    },
+    {
+      "id": "40TSw",
+      "name": "Microjournal",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "7.0 - Thoughts & Journal/7.1 - Microjournal/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-pen"
+    },
+    {
+      "id": "jLQCP",
+      "name": "People",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "5.0 - Network & People/5.1 - People/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-contact-2"
+    },
+    {
+      "id": "WYHYe",
+      "name": "Subject",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "4.0 - Zones/4.2 - Subjects/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-tag"
+    },
+    {
+      "id": "sQdXm",
+      "name": "Template",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "startsWith",
+          "value": "3.0 - Extras/3.1 - Templates/"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notepad-text-dashed"
+    }
+  ],
+  "folderRules": []
+}

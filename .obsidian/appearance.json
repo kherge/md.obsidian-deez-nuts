@@ -1,0 +1,9 @@
+{
+  "showViewHeader": false,
+  "showRibbon": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "micro",
+    "links"
+  ]
+}

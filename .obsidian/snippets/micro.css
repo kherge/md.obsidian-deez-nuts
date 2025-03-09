@@ -1,0 +1,19 @@
+/* ***********************
+ * Micro Content Styling *
+ *********************** */
+
+@media (any-pointer: fine) {
+  .markdown-reading-view:has(.micro),
+  .markdown-source-view.micro {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    height: 350px !important;
+    margin: 10% auto;
+    width: 450px !important;
+  }
+
+  .micro .markdown-preview-sizer,
+  .micro .cm-content {
+    padding-bottom: 0px !important;
+  }
+}

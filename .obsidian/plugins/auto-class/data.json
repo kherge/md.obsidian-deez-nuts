@@ -1,0 +1,25 @@
+{
+  "matches": [
+    {
+      "name": "Micro Content",
+      "members": [
+        {
+          "path": "7.0 - Thoughts & Journal/7.3 - Microblog",
+          "scope": "Read & Edit",
+          "classes": [
+            "micro"
+          ]
+        },
+        {
+          "path": "7.0 - Thoughts & Journal/7.1 - Microjournal",
+          "scope": "Read & Edit",
+          "classes": [
+            "micro"
+          ]
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "version": "2.3.0"
+}

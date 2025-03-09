@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "useTab": false,
+  "tabSize": 2,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "6.0 - Unsorted or Unfinished",
+  "attachmentFolderPath": "8.0 - Sources/8.2 - Attachments",
+  "propertiesInDocument": "hidden"
+}

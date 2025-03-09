@@ -1,0 +1,73 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "3.0 - Extras/3.1 - Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "4.0 - Zones/4.1 - Guides",
+      "template": "3.0 - Extras/3.1 - Templates/Guide.md"
+    },
+    {
+      "folder": "4.0 - Zones/4.2 - Subjects",
+      "template": "3.0 - Extras/3.1 - Templates/Subject.md"
+    },
+    {
+      "folder": "5.0 - Network & People/5.1 - People",
+      "template": "3.0 - Extras/3.1 - Templates/Person.md"
+    },
+    {
+      "folder": "5.0 - Network & People/5.2 - Families",
+      "template": "3.0 - Extras/3.1 - Templates/Family.md"
+    },
+    {
+      "folder": "7.0 - Thoughts & Journal/7.1 - Microjournal",
+      "template": "3.0 - Extras/3.1 - Templates/Microjournal.md"
+    },
+    {
+      "folder": "7.0 - Thoughts & Journal/7.2 - Journal",
+      "template": "3.0 - Extras/3.1 - Templates/Journal.md"
+    },
+    {
+      "folder": "7.0 - Thoughts & Journal/7.3 - Microblog",
+      "template": "3.0 - Extras/3.1 - Templates/Microblog.md"
+    },
+    {
+      "folder": "7.0 - Thoughts & Journal/7.4 - Blog",
+      "template": "3.0 - Extras/3.1 - Templates/Blog.md"
+    },
+    {
+      "folder": "7.0 - Thoughts & Journal/7.5 - Incidents",
+      "template": "3.0 - Extras/3.1 - Templates/Incident.md"
+    },
+    {
+      "folder": "8.0 - Sources/8.1 - Bookmarks",
+      "template": "3.0 - Extras/3.1 - Templates/Bookmark.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": "^5\\.0 - Networks & People/5\\.1 - People/",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    "3.0 - Extras/3.1 - Templates/Incident/Bullet.md"
+  ],
+  "startup_templates": [
+    ""
+  ]
+}
